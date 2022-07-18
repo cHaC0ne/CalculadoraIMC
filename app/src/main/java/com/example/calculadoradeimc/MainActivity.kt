@@ -11,8 +11,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         b = ActivityMainBinding.inflate(layoutInflater)
         setContentView(b.root)
-        val altura = 150
-        val peso = 60
+        val altura = b.sbAltura.progress.toString().plus("/200")
+        val peso =
 
         b.sbAltura.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seek: SeekBar, progress: Int, fromUser: Boolean) {
@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
 
             }
         })
-        b.tvIMC.text = "${altura.plus(peso)}"
+        b.tvIMC.text ="$altura"
 
 
 

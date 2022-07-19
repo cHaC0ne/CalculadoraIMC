@@ -9,4 +9,10 @@
     <color name="white">#FFFFFFFF</color>
     <color name="Verde">#0AB111</color>
     <color name="Naranja">#F4511E</color>
+    <color name="AzulOscuro">#033E71</color>
+    <color name="Azul">#04A8F8</color>
+    <color name="AzulCeleste">#22CFE4</color>
+    <color name="VerdeCesped">#7CB342</color>
+    <color name="Amarillo">#FDD835</color>
+    <color name="Rojo">#ED0B0B</color>
 </resources>

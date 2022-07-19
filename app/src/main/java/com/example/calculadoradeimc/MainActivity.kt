@@ -13,6 +13,8 @@ class MainActivity : AppCompatActivity() {
     private var peso = 75
     private var dobleAltura = 2.25
     private var  IMC = 33.33
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         b = ActivityMainBinding.inflate(layoutInflater)

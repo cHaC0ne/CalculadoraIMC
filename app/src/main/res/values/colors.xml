@@ -15,4 +15,5 @@
     <color name="VerdeCesped">#7CB342</color>
     <color name="Amarillo">#FDD835</color>
     <color name="Rojo">#ED0B0B</color>
+    <color name="Tranparente">#00000000</color>
 </resources>
